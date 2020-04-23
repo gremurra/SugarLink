@@ -1,6 +1,11 @@
 # SugarLink
-Eleven Fifty Academy - Blue Badge Final Project
-Overview:
+##Mission Statement
+Our project will allow a user to log and track diabetes-related data. That data produces personal trends, and can be used to show medical professionals.
+
+
+
+#Eleven Fifty Academy - Blue Badge Final Project
+##Overview:
 
 Your assignment is to build a .NET Framework API Web Application using n-tier architecture covering a topic of your group's choosing.
 
@@ -14,7 +19,7 @@ Fill out the planning document attached to the project module
 Break out the work load into consumable chunks, from your immediate TODOs to your long term stretch goals
  
 
-Requirements:
+##Requirements:
 
 Come up with an idea for an application that will use a minimum of 3 custom data tables
 Including at least one Foreign Key relationship
@@ -28,7 +33,7 @@ Link to repository site on your deployed Portfolio
 Repository has a README.md (Links to an external site.) associated with the project
  
 
-Interactivity:
+##Interactivity:
 
 As an addition to your API, you may consider adding a form of "front end" to your application.
 This can be something like the Console Applications we've interacted with in the past.
