@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SugarLink.API", "SugarLink.API\SugarLink.API.csproj", "{74C19E6E-6076-4841-B593-5C4451729A0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SugarLink.Data", "SugarLink.Data\SugarLink.Data.csproj", "{0B6556CD-7F8D-4CB2-BD6D-A8AEAC177340}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SugarLink.Models", "SugarLink.Models\SugarLink.Models.csproj", "{C85E5CE3-C789-4509-AACF-D10184A13B6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SugarLink.Services", "SugarLink.Services\SugarLink.Services.csproj", "{B7D4A426-EB9F-4DD2-BEC4-3A0806DB07DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74C19E6E-6076-4841-B593-5C4451729A0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C19E6E-6076-4841-B593-5C4451729A0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C19E6E-6076-4841-B593-5C4451729A0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C19E6E-6076-4841-B593-5C4451729A0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B6556CD-7F8D-4CB2-BD6D-A8AEAC177340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B6556CD-7F8D-4CB2-BD6D-A8AEAC177340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B6556CD-7F8D-4CB2-BD6D-A8AEAC177340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B6556CD-7F8D-4CB2-BD6D-A8AEAC177340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C85E5CE3-C789-4509-AACF-D10184A13B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C85E5CE3-C789-4509-AACF-D10184A13B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C85E5CE3-C789-4509-AACF-D10184A13B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C85E5CE3-C789-4509-AACF-D10184A13B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7D4A426-EB9F-4DD2-BEC4-3A0806DB07DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7D4A426-EB9F-4DD2-BEC4-3A0806DB07DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7D4A426-EB9F-4DD2-BEC4-3A0806DB07DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7D4A426-EB9F-4DD2-BEC4-3A0806DB07DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D29BDD54-5651-4F5B-9FD3-B42D1AF8319E}
+	EndGlobalSection
+EndGlobal
