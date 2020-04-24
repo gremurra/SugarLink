@@ -68,12 +68,14 @@
   </ItemGroup>
   <ItemGroup>
 
-
     <ProjectReference Include="..\SugarLink.Data\SugarLink.Data.csproj">
       <Project>{0b6556cd-7f8d-4cb2-bd6d-a8aeac177340}</Project>
       <Name>SugarLink.Data</Name>
     </ProjectReference>
-
+    <ProjectReference Include="..\SugarLink.Models\SugarLink.Models.csproj">
+      <Project>{C85E5CE3-C789-4509-AACF-D10184A13B6A}</Project>
+      <Name>SugarLink.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
