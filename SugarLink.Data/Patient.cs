@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,9 +31,13 @@ namespace SugarLink.Data
         public int Weight { get; set; }
         
         [Required]
-        public string? Medications { get; set; }
+        public string Medications { get; set; }
         
         [Required]
         public DiabetesType TypeOfDiabetes { get; set; }
+        
+        [ForeignKey(nameof(Doctor))]
+        public int DoctorId { get; set; }
+        public virtual Doctor Doctor { get; set; }
     }
 }

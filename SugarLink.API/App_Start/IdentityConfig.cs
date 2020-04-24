@@ -1,10 +1,10 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
-using Microsoft.AspNet.Identity.Owin;
+using Microsoft.AspNet.Identity;
 using Microsoft.Owin;
-using SugarLink.API.Data;
-using SugarLink.API.Models;
+using SugarLink.Data;
+using Microsoft.AspNet.Identity.Owin;
 
 namespace SugarLink.API
 {

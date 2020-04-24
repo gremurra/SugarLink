@@ -9,8 +9,7 @@ using Microsoft.Owin.Security.Google;
 using Microsoft.Owin.Security.OAuth;
 using Owin;
 using SugarLink.API.Providers;
-using SugarLink.API.Models;
-using SugarLink.API.Data;
+using SugarLink.Data;
 
 namespace SugarLink.API
 {
