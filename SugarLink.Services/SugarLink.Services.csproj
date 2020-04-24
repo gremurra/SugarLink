@@ -41,7 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EntryService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SugarLink.Data\SugarLink.Data.csproj">
+      <Project>{0b6556cd-7f8d-4cb2-bd6d-a8aeac177340}</Project>
+      <Name>SugarLink.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SugarLink.Models\SugarLink.Models.csproj">
+      <Project>{c85e5ce3-c789-4509-aacf-d10184a13b6a}</Project>
+      <Name>SugarLink.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
