@@ -10,7 +10,6 @@ namespace SugarLink.Data
 {
    public class Entry
     {
-        [Key]
         public int EntryId { get; set; }
          
         [Required]
@@ -18,7 +17,7 @@ namespace SugarLink.Data
         public int BloodSugarReading { get; set; }
         [Required]
         public DateTimeOffset EntryDate { get; set; }
-
+        [Key]
         [ForeignKey(nameof(Patient))]
         public Guid PatientId { get; set; }
 

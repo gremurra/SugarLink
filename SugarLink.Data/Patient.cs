@@ -15,8 +15,10 @@ namespace SugarLink.Data
     {
         [Key]
         public Guid PatientId { get; set; }
-        //public string FirstName { get; set; }         Add to ApplicationUser class??
-        //public string LastName { get; set; }          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        [Required]
+        public string FirstName { get; set; }         //Add to ApplicationUser class??
+        [Required]
+        public string LastName { get; set; }          //^^^^^^^^^^^^^^^^^^^^^^^^^^^
         public DateTime DateOfBirth { get; set; }
 
         [Required]
@@ -37,7 +39,7 @@ namespace SugarLink.Data
         public DiabetesType TypeOfDiabetes { get; set; }
         
         [ForeignKey(nameof(Doctor))]
-        public int DoctorId { get; set; }
+        public Guid DoctorId { get; set; }
         public virtual Doctor Doctor { get; set; }
     }
 }

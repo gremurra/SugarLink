@@ -16,7 +16,7 @@ namespace SugarLink.Services
         {
             _patientId = patientId;
         }
-
+        
         // CreateEntry()
         public bool CreateEntry(EntryCreate model)
         {
@@ -48,15 +48,16 @@ namespace SugarLink.Services
                             e =>
                                 new EntryListItem
                                 {
-                                    EntryId = e.EntryId,
+                                    PatientId = e.PatientId,
                                     EntryDate = e.EntryDate,
                                     BloodSugarReading = e.BloodSugarReading
                                 }
                         );
-                return query.ToArray();
+                return query;
             }
         }
         // GetEntryById()
+
         // EditEntry()
         // DeleteEntry()
     }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SugarLink.Data;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -16,5 +17,6 @@ namespace SugarLink.Models
         
         [DisplayName("Blood sugar level")]
         public int BloodSugarReading { get; set; }
+        public Guid PatientId { get; set; }
     }
 }

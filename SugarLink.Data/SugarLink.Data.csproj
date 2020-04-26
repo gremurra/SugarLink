@@ -98,6 +98,14 @@
     <Compile Include="Migrations\202004242050324_InitialMigration.designer.cs">
       <DependentUpon>202004242050324_InitialMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004261727239_EntryMigration.cs" />
+    <Compile Include="Migrations\202004261727239_EntryMigration.designer.cs">
+      <DependentUpon>202004261727239_EntryMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004261752355_DoctorGuidMigration.cs" />
+    <Compile Include="Migrations\202004261752355_DoctorGuidMigration.designer.cs">
+      <DependentUpon>202004261752355_DoctorGuidMigration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Patient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -112,6 +120,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202004242050324_InitialMigration.resx">
       <DependentUpon>202004242050324_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004261727239_EntryMigration.resx">
+      <DependentUpon>202004261727239_EntryMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004261752355_DoctorGuidMigration.resx">
+      <DependentUpon>202004261752355_DoctorGuidMigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

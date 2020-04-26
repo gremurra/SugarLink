@@ -63,11 +63,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DoctorService.cs" />
     <Compile Include="EntryService.cs" />
+    <Compile Include="PatientService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-
     <ProjectReference Include="..\SugarLink.Data\SugarLink.Data.csproj">
       <Project>{0b6556cd-7f8d-4cb2-bd6d-a8aeac177340}</Project>
       <Name>SugarLink.Data</Name>

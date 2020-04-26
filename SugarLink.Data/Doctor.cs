@@ -10,7 +10,7 @@ namespace SugarLink.Data
     public class Doctor
     {
         [Key]
-        public int DoctorId { get; set; }
+        public Guid DoctorId { get; set; }
 
         [Display(Name = "Patient Notes")]
         public string Notes { get; set; }

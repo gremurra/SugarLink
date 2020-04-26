@@ -63,8 +63,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DoctorCreate.cs" />
+    <Compile Include="DoctorListItem.cs" />
     <Compile Include="EntryCreate.cs" />
     <Compile Include="EntryListItem.cs" />
+    <Compile Include="PatientCreate.cs" />
+    <Compile Include="PatientListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
